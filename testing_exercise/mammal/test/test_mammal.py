@@ -21,4 +21,3 @@ class MammalTest(unittest.TestCase):
 
     def test_info_expect_return_expect_correct_result(self):
         self.assertEqual(self.mammal.info(), "Alex is of type Dog", )
-
