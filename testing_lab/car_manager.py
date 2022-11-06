@@ -112,6 +112,10 @@ class TestCar(unittest.TestCase):
             self.car.fuel_consumption = -1
         self.assertEqual("Fuel consumption cannot be zero or negative!", str(ex.exception))
 
+        with self.assertRaises(Exception) as ex:
+            self.car.fuel_consumption = 0
+        self.assertEqual("Fuel consumption cannot be zero or negative!", str(ex.exception))
+
     def test_fuel_consumption_expect_return_new_value(self):
         self.car.fuel_consumption = 5
         self.assertEqual(self.car.fuel_consumption, 5)
@@ -119,6 +123,10 @@ class TestCar(unittest.TestCase):
     def test_fuel_capacity_expect_raise_error_if_new_value_is_less_than_zero(self):
         with self.assertRaises(Exception) as ex:
             self.car.fuel_capacity = -1
+        self.assertEqual("Fuel capacity cannot be zero or negative!", str(ex.exception))
+
+        with self.assertRaises(Exception) as ex:
+            self.car.fuel_capacity = 0
         self.assertEqual("Fuel capacity cannot be zero or negative!", str(ex.exception))
 
     def test_fuel_capacity_expect_return_new_value(self):
