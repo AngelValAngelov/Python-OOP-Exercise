@@ -3,22 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d44ebabf-5b91-4a3e-a19c-ef7052443a27" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/appliances/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/appliances/appliance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/appliances/fridge.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/appliances/laptop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/appliances/stove.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/appliances/tv.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/everland.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/people/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/people/child.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/rooms/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/rooms/alone_old.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/rooms/alone_young.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/rooms/old_couple.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/rooms/room.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/rooms/young_couple.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/rooms/young_couple_with_children.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
   </component>
   <component name="RunManager" selected="Python tests.Python tests for test.TestStudentReportCard.test_school_year_set_up_with_valid_number">
     <configuration name="everland (1)" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -255,7 +239,7 @@
       <workItem from="1667933335461" duration="12175000" />
       <workItem from="1668020680705" duration="9956000" />
       <workItem from="1668041929981" duration="426000" />
-      <workItem from="1668088077472" duration="54749000" />
+      <workItem from="1668088077472" duration="56279000" />
     </task>
     <servers />
   </component>
